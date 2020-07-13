@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://brittneybee123:brittneybee123@ecommercesite.3bvuc.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
