@@ -1,0 +1,31 @@
+.bg {
+  background-position: center top;
+  padding: 100px 300px;
+  height: 100vh;
+}
+
+.wrap {
+  position: relative;
+}
+
+.newsletter-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  margin: 0 auto;
+  background-position: center -100px;
+  filter: blur(7px);
+}
+
+.Home-Heading {
+  color: rgb(10, 10, 10);
+  border: 2px solid white;
+  padding: 50px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 500px;
+  text-align: center;
+}
