@@ -24,11 +24,10 @@ const Footer = () => {
               <Link to="About">About Us</Link>
             </li>
             <li className="contact-sheet">
-              <a className="grey-text text-lighten-3" href="#Contact">
-                Contact Us
-              </a>
+              <Link to="ContactUs">Contact Us</Link>
             </li>
           </ul>
+          <div className="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
         </div>
       </div>
     </footer>

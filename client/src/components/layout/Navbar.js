@@ -12,9 +12,9 @@ const Navbar = () => {
         bg="dark"
         variant="dark"
       >
-        <ReactBootstrap.Navbar.Brand href="#home">
-          Sports Inc.
+        <ReactBootstrap.Navbar.Brand>
           <Link to="Ecommerce-site">
+            Sports Inc.
             <img
               className="logo"
               src="https://i.postimg.cc/L6Q45VT9/ogo-story-volkswagen.jpg"
