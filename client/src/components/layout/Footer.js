@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -20,9 +21,7 @@ const Footer = () => {
               <a href="https://github.com/bee-byte">Facebook</a>
             </li>
             <li className="info-page">
-              <a className="grey-text text-lighten-3" href="#About">
-                About Us
-              </a>
+              <Link to="About">About Us</Link>
             </li>
             <li className="contact-sheet">
               <a className="grey-text text-lighten-3" href="#Contact">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import * as ReactBootstrap from 'react-bootstrap';
 import './Navbar.css';
 
@@ -13,12 +14,15 @@ const Navbar = () => {
       >
         <ReactBootstrap.Navbar.Brand href="#home">
           Sports Inc.
+          <Link to="Ecommerce-site">
+            <img
+              className="logo"
+              src="https://i.postimg.cc/L6Q45VT9/ogo-story-volkswagen.jpg"
+              alt=""
+            />
+          </Link>
         </ReactBootstrap.Navbar.Brand>
-        <img
-          className="logo"
-          src="https://i.postimg.cc/L6Q45VT9/ogo-story-volkswagen.jpg"
-          alt=""
-        />
+
         <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootstrap.Nav className="nav-selection">
