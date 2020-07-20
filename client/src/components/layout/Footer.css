@@ -1,8 +1,9 @@
 .page-footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 15%;
   background-color: rgb(76, 83, 81);
   color: white;
   opacity: 0.9;
@@ -12,16 +13,9 @@ main {
   flex: 1 0 auto;
 }
 
-.contact-details {
-  float: left;
-}
-
-.webpage-links {
-  float: right;
-}
-
-.container {
-  clear: both;
+.footer-content {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {

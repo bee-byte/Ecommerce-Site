@@ -6,12 +6,15 @@ const Footer = () => {
   return (
     <footer className="page-footer">
       <div className="container">
-        <div className="contact-details">
-          <p>Contact Number : 0800 169 745</p>
-          <p>Email: brittneybee82@gmail.com</p>
-        </div>
-        <div className="webpage-links">
+        <div className="footer-content">
           <ul>
+            <li className="info-page">
+              <Link to="About">About Us</Link>
+            </li>
+            <li className="contact-sheet">
+              <Link to="ContactUs">Contact Us</Link>
+            </li>
+            <b>Follow us on :</b>
             <li>
               <i className="fa fa-twitter-square" aria-hidden="true" />
               <a href="https://github.com/bee-byte">Twitter</a>
@@ -20,15 +23,9 @@ const Footer = () => {
               <i className="fa fa-facebook-official" aria-hidden="true" />
               <a href="https://github.com/bee-byte">Facebook</a>
             </li>
-            <li className="info-page">
-              <Link to="About">About Us</Link>
-            </li>
-            <li className="contact-sheet">
-              <Link to="ContactUs">Contact Us</Link>
-            </li>
           </ul>
-          <div className="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
         </div>
+        <div className="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
       </div>
     </footer>
   );

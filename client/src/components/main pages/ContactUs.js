@@ -4,9 +4,9 @@ import './ContactUs.css';
 const ContactUs = () => {
   return (
     <section id="contact">
-      <h1 className="section-header">CONTACT</h1>
+      <h1 className="contact-header">We'd like to hear from you !</h1>
 
-      <div className="contact-wrapper">
+      <div className="contact-form">
         <form
           className="myForm"
           action="https://formspree.io/xgenpjjg"
@@ -88,7 +88,7 @@ const ContactUs = () => {
           </li>
         </ul>
 
-        <div className="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        <div className="copyright">&copy; SportsInc.2020</div>
       </div>
     </section>
   );

@@ -5,6 +5,9 @@ import Footer from './components/layout/Footer';
 import Home from './components/main pages/Home';
 import About from './components/main pages/About';
 import ContactUs from './components/main pages/ContactUs';
+import Rugby from './components/product pages/Rugby';
+import Soccer from './components/product pages/Soccer';
+import Cricket from './components/product pages/Cricket';
 
 import './App.css';
 import './components/layout/Footer.css';
@@ -18,6 +21,9 @@ function App() {
           <Route exact path="/Ecommerce-Site" component={Home} />
           <Route path="/About" component={About} />
           <Route path="/ContactUs" component={ContactUs} />
+          <Route path="/Rugby" component={Rugby} />
+          <Route path="/Soccer" component={Soccer} />
+          <Route path="/Cricket" component={Cricket} />
         </Switch>
         <Footer />
       </Router>

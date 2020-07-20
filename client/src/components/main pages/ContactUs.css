@@ -12,18 +12,18 @@ body {
   padding-bottom: 200px;
 }
 
-.section-header {
+.contact-header {
   text-align: center;
   margin: 0 auto;
   padding-top: 50px;
   margin-bottom: 50px;
-  font: 300 60px 'Oswald', sans-serif;
+  font: 200px 50px 'Oswald', sans-serif;
   letter-spacing: 6px;
   color: rgb(19, 18, 18);
   margin-bottom: 25px;
 }
 
-.contact-wrapper {
+.contact-form {
   margin: 0 auto;
   padding-top: 20px;
   position: relative;
@@ -70,10 +70,11 @@ textarea {
 .button:hover {
   transform: translate3d(0px, -29px, 0px);
 }
-/* Begin Right Contact Page */
+
 .direct-contact-container {
   max-width: 400px;
   float: right;
+  float: inline-start;
   margin-top: 5px;
 }
 

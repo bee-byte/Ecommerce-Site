@@ -14,12 +14,14 @@ const Navbar = () => {
       >
         <ReactBootstrap.Navbar.Brand>
           <Link to="Ecommerce-site">
-            Sports Inc.
-            <img
-              className="logo"
-              src="https://i.postimg.cc/L6Q45VT9/ogo-story-volkswagen.jpg"
-              alt=""
-            />
+            <div className="brand-content">
+              <div className="CompanyName">Sports Inc.</div>
+              <img
+                className="logo"
+                src="https://i.postimg.cc/L6Q45VT9/ogo-story-volkswagen.jpg"
+                alt=""
+              />
+            </div>
           </Link>
         </ReactBootstrap.Navbar.Brand>
 
@@ -36,14 +38,14 @@ const Navbar = () => {
               title="Shop Now !"
               id="collasible-nav-dropdown"
             >
-              <ReactBootstrap.NavDropdown.Item href="#Product1">
-                Rugby Equipment
+              <ReactBootstrap.NavDropdown.Item>
+                <Link to="Rugby">Rugby Equipment</Link>
               </ReactBootstrap.NavDropdown.Item>
-              <ReactBootstrap.NavDropdown.Item href="#Product2">
-                Cricket Equipment
+              <ReactBootstrap.NavDropdown.Item>
+                <Link to="Cricket">Cricket Equipment</Link>
               </ReactBootstrap.NavDropdown.Item>
-              <ReactBootstrap.NavDropdown.Item href="#Product3">
-                Soccer Equipment
+              <ReactBootstrap.NavDropdown.Item>
+                <Link to="Soccer">Soccer Equipment</Link>
               </ReactBootstrap.NavDropdown.Item>
             </ReactBootstrap.NavDropdown>
           </ReactBootstrap.Nav>

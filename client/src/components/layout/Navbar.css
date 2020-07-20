@@ -9,10 +9,22 @@
 .logo {
   justify-content: 'center';
   align-items: 'center';
-  margin: 5px 10px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-right: 6rem;
   height: 35px;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .navigation-bar .nav-selection {
   float: right;
+}
+
+.CompanyName {
+  font: 'Oswald', sans-serif;
+}
+
+.brand-content {
+  display: flex;
 }
