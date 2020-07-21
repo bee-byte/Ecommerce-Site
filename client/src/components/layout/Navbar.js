@@ -28,25 +28,27 @@ const Navbar = () => {
         <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootstrap.Nav className="nav-selection">
-            <ReactBootstrap.Nav.Link href="#Login">
-              Login
+            <ReactBootstrap.Nav.Link>
+              <Link to="Login">Login</Link>
             </ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="#Register">
-              Register
+            <ReactBootstrap.Nav.Link>
+              <Link to="Register">Register</Link>
             </ReactBootstrap.Nav.Link>
             <ReactBootstrap.NavDropdown
               title="Shop Now !"
               id="collasible-nav-dropdown"
             >
-              <ReactBootstrap.NavDropdown.Item>
-                <Link to="Rugby">Rugby Equipment</Link>
-              </ReactBootstrap.NavDropdown.Item>
-              <ReactBootstrap.NavDropdown.Item>
-                <Link to="Cricket">Cricket Equipment</Link>
-              </ReactBootstrap.NavDropdown.Item>
-              <ReactBootstrap.NavDropdown.Item>
-                <Link to="Soccer">Soccer Equipment</Link>
-              </ReactBootstrap.NavDropdown.Item>
+              <div className="dropdown-links">
+                <ReactBootstrap.NavDropdown.Item>
+                  <Link to="Rugby">Rugby Equipment</Link>
+                </ReactBootstrap.NavDropdown.Item>
+                <ReactBootstrap.NavDropdown.Item>
+                  <Link to="Cricket">Cricket Equipment</Link>
+                </ReactBootstrap.NavDropdown.Item>
+                <ReactBootstrap.NavDropdown.Item>
+                  <Link to="Soccer">Soccer Equipment</Link>
+                </ReactBootstrap.NavDropdown.Item>
+              </div>
             </ReactBootstrap.NavDropdown>
           </ReactBootstrap.Nav>
         </ReactBootstrap.Navbar.Collapse>

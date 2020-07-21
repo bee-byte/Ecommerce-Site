@@ -8,6 +8,8 @@ import ContactUs from './components/main pages/ContactUs';
 import Rugby from './components/product pages/Rugby';
 import Soccer from './components/product pages/Soccer';
 import Cricket from './components/product pages/Cricket';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
 
 import './App.css';
 import './components/layout/Footer.css';
@@ -24,6 +26,8 @@ function App() {
           <Route path="/Rugby" component={Rugby} />
           <Route path="/Soccer" component={Soccer} />
           <Route path="/Cricket" component={Cricket} />
+          <Route path="/Login" component={Login} />
+          <Route path="/Register" component={Register} />
         </Switch>
         <Footer />
       </Router>

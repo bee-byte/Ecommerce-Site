@@ -28,3 +28,7 @@
 .brand-content {
   display: flex;
 }
+
+.dropdown-links {
+  background-color: #3a3a3a;
+}
