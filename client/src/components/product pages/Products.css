@@ -18,3 +18,8 @@
   margin-left: 8rem;
   margin-top: 3rem;
 }
+
+.item-image {
+  object-fit: cover;
+  height: 300px;
+}
