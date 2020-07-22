@@ -5,7 +5,7 @@ import './Products.css';
 const cricketitems = [
   {
     name: 'Cricket Ball',
-    image: 'https://i.postimg.cc/m2SvmxTV/cricket-ball.jpg',
+    image: 'https://i.postimg.cc/vZCt9z4M/dukes.png',
     price: 'Price :R149.90',
     AddToCart: '',
   },

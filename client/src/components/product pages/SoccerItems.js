@@ -5,8 +5,8 @@ const SoccerItems = ({ item }) => {
   return (
     <div className="items-page">
       <div className="card-container">
-        <h3 className="item-name">{item.name}</h3>
         <img className="item-image" src={item.image} alt={item.name} />
+        <h5 className="item-name">{item.name}</h5>
         <div className="item-price">{item.price}</div>
         <div className="item-AddToCart">{item.AddToCart}</div>
       </div>

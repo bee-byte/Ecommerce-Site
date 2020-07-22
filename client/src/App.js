@@ -14,9 +14,14 @@ import Register from './components/auth/Register';
 
 import AuthState from './components/context/auth/AuthState';
 import AlertState from './components/context/alert/AlertState';
+import setAuthToken from './utills/setAuthToken';
 
 import './App.css';
 import './components/layout/Footer.css';
+
+if (localStorage.token) {
+  setAuthToken(localStorage.token);
+}
 
 function App() {
   return (

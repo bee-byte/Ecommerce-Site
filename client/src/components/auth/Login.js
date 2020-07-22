@@ -35,7 +35,7 @@ const Login = (props) => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (email === '' || password === '') {
-      setAlert('Please fill in all fields, danger');
+      setAlert('Please fill in all fields', 'danger');
     } else {
       login({
         email,
@@ -43,19 +43,20 @@ const Login = (props) => {
       });
     }
   };
+
   return (
     <div className="auth-form-container">
       <h1 className="auth-header">
         Sports Inc.<span className="text-primary"> Account Login</span>
       </h1>
       <div className="auth-form">
-        <form>
+        <form onSubmit={onSubmit}>
           <div className="form-group">
             <label htmlFor="email">Email Address</label>
             <input
               type="email"
-              className="email"
-              id="email"
+              name="email"
+              value={email}
               onChange={onChange}
               required
             />

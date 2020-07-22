@@ -1,7 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { useContext, useEffect, Fragment } from 'react';
 import './Home.css';
+import AuthContext from '../context/auth/authContext';
 
 const Home = () => {
+  const authContext = useContext(AuthContext);
+
+  useEffect(() => {
+    authContext.loadUser();
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <Fragment>
       <div className="bg-image1">
