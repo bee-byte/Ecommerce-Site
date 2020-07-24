@@ -128,7 +128,7 @@ textarea {
 
 /* Begin Media Queries*/
 @media screen and (max-width: 760px) {
-  #contact {
+  #contactPage {
     height: 1000px;
   }
   .section-header {

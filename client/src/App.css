@@ -20,30 +20,12 @@ ul {
   list-style: none;
 }
 
-.page-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(76, 83, 81);
-  color: white;
-  opacity: 0.9;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
 .contact-details {
   float: left;
 }
 
 .webpage-links {
   float: right;
-}
-
-.container {
-  clear: both;
 }
 
 @media screen and (max-width: 600px) {

@@ -18,7 +18,7 @@ const Navbar = () => {
               <div className="CompanyName">Sports Inc.</div>
               <img
                 className="logo"
-                src="https://i.postimg.cc/L6Q45VT9/ogo-story-volkswagen.jpg"
+                src="https://i.postimg.cc/d1fvvcwz/My-Post.jpg"
                 alt=""
               />
             </div>
