@@ -11,10 +11,12 @@ import Cricket from './components/product pages/Cricket';
 import Login from './components/auth/Login';
 import Alerts from './components/auth/Alerts';
 import Register from './components/auth/Register';
+import ShoppingCart from './components/layout/ShoppingCart';
 
 import AuthState from './components/context/auth/AuthState';
 import AlertState from './components/context/alert/AlertState';
 import setAuthToken from './utills/setAuthToken';
+import { CartProvider } from './components/context/cart/CartContext';
 
 import './App.css';
 import './components/layout/Footer.css';
@@ -35,11 +37,14 @@ function App() {
               <Route exact path="/Ecommerce-Site" component={Home} />
               <Route path="/About" component={About} />
               <Route path="/ContactUs" component={ContactUs} />
-              <Route path="/Rugby" component={Rugby} />
-              <Route path="/Soccer" component={Soccer} />
-              <Route path="/Cricket" component={Cricket} />
               <Route path="/Login" component={Login} />
               <Route path="/Register" component={Register} />
+              <CartProvider>
+                <Route path="/Rugby" component={Rugby} />
+                <Route path="/Soccer" component={Soccer} />
+                <Route path="/Cricket" component={Cricket} />
+                <ShoppingCart />
+              </CartProvider>
             </Switch>
             <Footer />
           </Router>

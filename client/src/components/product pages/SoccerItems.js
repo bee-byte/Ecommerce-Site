@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import { CartContext } from '../context/cart/CartContext';
 
 const SoccerItems = ({ item }) => {
+  const [shoppingcart, setshoppingcart] = useContext(CartContext);
+  const addToCart = () => {
+    const soccer = { name: item.name, price: item.price };
+    setshoppingcart((curr) => [...curr, soccer]);
+  };
   return (
     <div className="items-page">
       <div className="card-container">
         <img className="item-image" src={item.image} alt={item.name} />
         <h5 className="item-name">{item.name}</h5>
         <div className="item-price">{item.price}</div>
-        <div className="item-AddToCart">{item.AddToCart}</div>
+        <button className="add-to-cart-button" onClick={addToCart}>
+          Add to cart
+        </button>
       </div>
     </div>
   );

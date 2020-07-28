@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  margin-left: 100px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  widows: 40%;
+  height: 30%;
+  object-fit: cover;
+}

@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import { CartContext } from '../context/cart/CartContext';
 
 const RugbyItems = ({ item }) => {
+  const [shoppingcart, setshoppingcart] = useContext(CartContext);
+  const addToCart = () => {
+    const rugby = { name: item.name, price: item.price };
+    setshoppingcart((curr) => [...curr, rugby]);
+  };
+
   return (
     <div className="items-page">
       <div className="card-container">
@@ -9,6 +16,10 @@ const RugbyItems = ({ item }) => {
         <h5 className="item-name">{item.name}</h5>
         <div className="item-price">{item.price}</div>
         <div className="item-AddToCart">{item.AddToCart}</div>
+        <br />
+        <button className="add-to-cart-button" onClick={addToCart}>
+          Add to cart
+        </button>
       </div>
     </div>
   );

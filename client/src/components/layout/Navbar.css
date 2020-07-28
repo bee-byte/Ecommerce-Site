@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Merienda&family=Philosopher:wght@700&display=swap');
+
 .navigation-bar {
   justify-content: space-between;
   z-index: 1;
@@ -5,24 +7,25 @@
   height: 5%;
   opacity: 0.9;
   border-bottom: black;
+  margin-right: 1rem;
 }
 .logo {
-  justify-content: 'center';
-  align-items: 'center';
-  margin-left: 3rem;
+  object-fit: cover;
   margin-top: 1rem;
-  margin-right: 6rem;
-  height: 35px;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  margin-right: 1rem;
+  height: 45px;
+  width: 45px;
+  border-radius: 8rem;
 }
 
 .navigation-bar .nav-selection {
-  float: right;
+  width: 100%;
+  justify-content: flex-end;
+  font-family: 'Merienda', cursive;
 }
 
 .CompanyName {
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: 'Merienda', cursive;
 }
 
 .brand-content {
@@ -31,4 +34,12 @@
 
 .dropdown-links {
   background-color: #3a3a3a;
+}
+
+.dropdown-menu {
+  margin-right: 2rem;
+}
+
+.dropdown-item {
+  text-decoration: none;
 }

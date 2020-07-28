@@ -1,8 +1,14 @@
 .footer-section {
   width: 100%;
-  background-color: rgb(218, 212, 212);
+  background-color: rgb(72, 68, 68);
   margin: 0 auto;
   padding-top: 24px;
+}
+
+.Brand {
+  color: rgb(255, 255, 255);
+  font-family: 'Grenze Gotisch', cursive;
+  padding: 5px;
 }
 .footer-section .row {
   display: flex;
@@ -30,15 +36,12 @@
   border-right: 1px dashed black;
   margin: 0;
 }
-.footer-section .footer-disclaimer .logo img {
-  width: 50%;
-  opacity: 0.9;
-  display: flex;
-}
+
 .footer-section .footer-disclaimer p {
   padding-right: 24px;
   padding-bottom: 8px;
   margin-top: 16px;
+  color: rgb(162, 160, 160);
 }
 .footer-section .footer-links {
   display: flex;
@@ -77,7 +80,7 @@
   justify-content: center;
 }
 .footer-section .social-icons li a {
-  color: black;
+  color: rgb(18, 121, 247);
   font-size: 1.5rem;
   padding: 0 8px;
 }
@@ -109,24 +112,13 @@
   line-height: 4;
   color: #aaa;
 }
-
+/* 
 .contact-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }
 
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
-}
-
-.gmail {
-  margin-left: 53px;
-}
 
 .contact-text a {
   color: rgb(14, 13, 13);
@@ -137,11 +129,11 @@
 .contact-text a:hover {
   color: rgb(81, 78, 78);
   text-decoration: none;
-}
+} */
 
 .copyright {
   font: 200 14px 'Oswald', sans-serif;
-  color: #555;
+  color: white !important;
   letter-spacing: 1px;
   text-align: center;
 }

@@ -12,6 +12,7 @@
   position: center;
   width: 25%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.23);
+  object-fit: cover;
 }
 
 .products {
@@ -22,4 +23,30 @@
 .item-image {
   object-fit: cover;
   height: 300px;
+}
+
+.add-to-cart-button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #242724;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+/*mobile*/
+@media only screen and (max-width: 520px) {
+  .card-container {
+    width: 100%;
+  }
+}
+
+/*tablet*/
+@media only screen and (min-width: 521px) and (max-width: 768px) {
+  .card-container {
+    width: 40%;
+  }
 }

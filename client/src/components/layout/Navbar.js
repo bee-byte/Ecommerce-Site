@@ -15,12 +15,12 @@ const Navbar = () => {
         <ReactBootstrap.Navbar.Brand>
           <Link to="Ecommerce-site">
             <div className="brand-content">
-              <div className="CompanyName">Sports Inc.</div>
               <img
                 className="logo"
-                src="https://i.postimg.cc/d1fvvcwz/My-Post.jpg"
+                src="https://i.postimg.cc/6pDsSRQn/My-Post-1.jpg"
                 alt=""
               />
+              <div className="CompanyName">Sports Inc.</div>
             </div>
           </Link>
         </ReactBootstrap.Navbar.Brand>
@@ -33,6 +33,15 @@ const Navbar = () => {
             </ReactBootstrap.Nav.Link>
             <ReactBootstrap.Nav.Link>
               <Link to="Register">Register</Link>
+            </ReactBootstrap.Nav.Link>
+            {/* Get this logout link to work and pass the isAuthenticated up to here, then you're golden */}
+            <ReactBootstrap.Nav.Link>
+              <Link to="Ecommerce-site">Logout</Link>
+            </ReactBootstrap.Nav.Link>
+            <ReactBootstrap.Nav.Link>
+              <Link to="ShoppingCart">
+                <i className="fa fa-shopping-basket" aria-hidden="true"></i>
+              </Link>
             </ReactBootstrap.Nav.Link>
             <ReactBootstrap.NavDropdown
               title="Shop Now !"

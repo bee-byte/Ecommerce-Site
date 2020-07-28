@@ -1,4 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import AlertContext from '../context/alert/alertContext';
 import AuthContext from '../context/auth/authContext';
 
@@ -44,6 +45,10 @@ const Login = (props) => {
     }
   };
 
+  function home() {
+    return <Link to="/Ecommerce-site" />;
+  }
+
   return (
     <div className="auth-form-container">
       <h1 className="auth-header">
@@ -73,6 +78,7 @@ const Login = (props) => {
           </div>
           <button
             className="btn btn-primary send-button"
+            onClick={home}
             id="submit"
             type="submit"
             value="Login"

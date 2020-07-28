@@ -7,30 +7,32 @@ const About = () => {
       <div className="page-text">
         <h1 className="aboutUsheading">About Us</h1>
         <p className="aboutUs-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
+          Sports Inc. was found in 2020 during the course of the international
+          pandemic.
           <br />
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          It has crossed the mind of CEO that purchasing fitness items online
+          would be
           <br />
-          since the 1500s, when an unknown printer took a galley of type and
+          an excellent idea . Sports Inc has become one of the most popular
+          retail stores
           <br />
-          scrambled it to make a type specimen book. It has survived not only
+          and been rated the <b>NUMBER 1</b> store for sports equipment in South
+          Africa.
           <br />
-          five centuries, but also the leap into electronic typesetting,
           <br />
-          remaining essentially unchanged. It was popularised in the 1960s with
+          Operation Hours:
           <br />
-          the release of Letraset sheets containing Lorem Ipsum passages, and
+          Monday-Friday from 8am - 6pm
           <br />
-          more recently with desktop publishing software like Aldus PageMaker
+          Saturday-Sunday from 9am- 4pm
           <br />
-          including versions of Lorem Ipsum.
+          Customer care contact number :
+          <br />
+          0800-751-1562
         </p>
       </div>
       <div className="card">
-        <img
-          src="https://i.postimg.cc/GtmZG0Zd/featured-items-bg.png"
-          alt="Avatar"
-        />
+        <img src="https://i.postimg.cc/dVp4PYc7/about-us.jpg" alt="Logo" />
       </div>
     </div>
   );

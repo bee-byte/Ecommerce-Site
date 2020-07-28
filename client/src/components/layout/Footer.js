@@ -4,21 +4,17 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div class="footer-section">
-      <div class="row main">
-        <div class="col site-info">
-          <div class="footer-disclaimer">
-            <div class="logo">
-              <img src="" alt="" />
-            </div>
+    <div className="footer-section">
+      <div className="row main">
+        <div className="col site-info">
+          <div className="footer-disclaimer">
+            <h2 className="Brand">Sports Inc.</h2>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Sports Inc. stores are filled with a variety of sports equipment
+              to suit your fitness needs !
             </p>
           </div>
-          <div class="footer-links" id="footer-section">
+          <div className="footer-links" id="footer-section">
             <ul>
               <li>
                 <Link to="/Ecommerce-site" alt="">
@@ -41,7 +37,7 @@ const Footer = () => {
         <div className="direct-contact-container">
           <ul className="contact-list">
             <li className="list-item">
-              <i className="fa fa-map-marker fa-2x">
+              <i className="fa fa-map-marker fa-1x">
                 <span className="contact-text place">
                   Stellenbosch || Cape Town
                 </span>
@@ -49,7 +45,7 @@ const Footer = () => {
             </li>
 
             <li className="list-item">
-              <i className="fa fa-phone fa-2x">
+              <i className="fa fa-phone fa-1x">
                 <span className="contact-text phone">
                   <a href="tel:021-695-3322" title="Give me a call">
                     (021)695 3322
@@ -59,7 +55,7 @@ const Footer = () => {
             </li>
 
             <li className="list-item">
-              <i className="fa fa-envelope fa-2x">
+              <i className="fa fa-envelope" aria-hidden="true">
                 <span className="contact-text gmail">
                   <a
                     href="mailto:brittneybee82@gmail.com"
@@ -74,32 +70,32 @@ const Footer = () => {
 
           <div className="copyright">&copy; SportsInc.2020</div>
         </div>
-        <div class="row">
-          <div class="social-icons">
+        <div className="row">
+          <div className="social-icons">
             <ul>
               <li>
                 <a href="https://socialntworkname.com" alt="">
-                  <i class="fab fa-facebook"></i>
+                  <i className="fab fa-facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="https://socialntworkname.com" alt="">
-                  <i class="fab fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="https://socialntworkname.com" alt="">
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="https://socialntworkname.com" alt="">
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </li>
               <li>
                 <a href="https://socialntworkname.com" alt="">
-                  <i class="fab fa-youtube"></i>
+                  <i className="fab fa-youtube"></i>
                 </a>
               </li>
             </ul>

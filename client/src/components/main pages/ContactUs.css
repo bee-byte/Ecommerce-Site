@@ -10,6 +10,7 @@ body {
   background-color: whitesmoke;
   overflow: hidden;
   padding-bottom: 200px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-header {

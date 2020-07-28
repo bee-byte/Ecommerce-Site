@@ -4,40 +4,40 @@ import './Products.css';
 
 const rugbyitems = [
   {
+    id: 1,
     image: 'https://i.postimg.cc/wj2sxBgJ/gilbert-ball.jpg',
     name: 'Rugby Ball',
     price: 'Price :R299.99',
-    AddToCart: '',
   },
   {
+    id: 2,
     image: 'https://i.postimg.cc/x8Lcwf6X/kicking-tee.jpg',
     name: 'Rugby Kicking Tee',
-    price: 'Price: R260.00',
-    AddToCart: '',
+    price: ' R260.00',
   },
   {
+    id: 3,
     image: 'https://i.postimg.cc/FF0zsKxR/rugby-shoulder-pads.jpg',
     name: 'Rugby Shoulder Pads',
-    price: 'Price: R799.99',
-    AddToCart: '',
+    price: ' R799.99',
   },
   {
+    id: 4,
     image: 'https://i.postimg.cc/Yqw41FSY/Mouth-Guard.jpg',
     name: 'Rugby Gum Guard',
-    price: 'Price: R89.90',
-    AddToCart: '',
+    price: ' R89.90',
   },
   {
+    id: 5,
     image: 'https://i.postimg.cc/FHCsnkhP/tackling-bag.png',
     name: 'Rugby Tackle Bag',
     price: 'Price : R5 500.00',
-    AddToCart: '',
   },
   {
+    id: 6,
     name: 'Rugby Scrum Machine',
     image: 'https://i.postimg.cc/KYVj4kVK/rugby-scrum-machine.jpg',
-    price: 'Price: R19 999.99',
-    AddToCart: '',
+    price: ' R19 999.99',
   },
 ];
 
