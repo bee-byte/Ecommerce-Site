@@ -5,6 +5,7 @@ import { CartContext } from '../context/cart/CartContext';
 const RugbyItems = ({ item }) => {
   const [shoppingcart, setshoppingcart] = useContext(CartContext);
   const addToCart = () => {
+    console.log(item);
     const rugby = { name: item.name, price: item.price };
     setshoppingcart((curr) => [...curr, rugby]);
   };
@@ -14,7 +15,7 @@ const RugbyItems = ({ item }) => {
       <div className="card-container">
         <img className="item-image" src={item.image} alt={item.name} />
         <h5 className="item-name">{item.name}</h5>
-        <div className="item-price">{item.price}</div>
+        <div className="item-price">R{item.price}</div>
         <div className="item-AddToCart">{item.AddToCart}</div>
         <br />
         <button className="add-to-cart-button" onClick={addToCart}>
@@ -30,3 +31,6 @@ RugbyItems.propTypes = {
 };
 
 export default RugbyItems;
+
+// so basically the checkout is in my products page .. and when i add to cart the prices shows and not the total amount
+// where is that code you are talking about/
