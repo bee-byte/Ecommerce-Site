@@ -39,8 +39,18 @@
 
 /*mobile*/
 @media only screen and (max-width: 520px) {
+  .product {
+    margin: auto;
+  }
   .card-container {
-    width: 100%;
+    width: 25%;
+  }
+  .item-image {
+    height: 100px;
+    display: flex;
+  }
+  .add-to-cart-button {
+    font-size: 3px;
   }
 }
 
