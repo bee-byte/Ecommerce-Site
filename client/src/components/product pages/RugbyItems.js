@@ -5,7 +5,6 @@ import { CartContext } from '../context/cart/CartContext';
 const RugbyItems = ({ item }) => {
   const [shoppingcart, setshoppingcart] = useContext(CartContext);
   const addToCart = () => {
-    console.log(item);
     const rugby = { name: item.name, price: item.price };
     setshoppingcart((curr) => [...curr, rugby]);
   };

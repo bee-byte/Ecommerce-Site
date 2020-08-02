@@ -13,7 +13,7 @@ const SoccerItems = ({ item }) => {
       <div className="card-container">
         <img className="item-image" src={item.image} alt={item.name} />
         <h5 className="item-name">{item.name}</h5>
-        <div className="item-price">{item.price}</div>
+        <div className="item-price">R{item.price}</div>
         <button className="add-to-cart-button" onClick={addToCart}>
           Add to cart
         </button>

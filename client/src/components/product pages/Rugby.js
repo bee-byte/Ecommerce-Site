@@ -13,7 +13,7 @@ const rugbyitems = [
     id: 2,
     image: 'https://i.postimg.cc/x8Lcwf6X/kicking-tee.jpg',
     name: 'Rugby Kicking Tee',
-    price: 260.0,
+    price: 259.99,
   },
   {
     id: 3,
@@ -25,13 +25,13 @@ const rugbyitems = [
     id: 4,
     image: 'https://i.postimg.cc/Yqw41FSY/Mouth-Guard.jpg',
     name: 'Rugby Gum Guard',
-    price: 89.9,
+    price: 89.99,
   },
   {
     id: 5,
     image: 'https://i.postimg.cc/FHCsnkhP/tackling-bag.png',
     name: 'Rugby Tackle Bag',
-    price: 5500.0,
+    price: 5499.99,
   },
   {
     id: 6,
