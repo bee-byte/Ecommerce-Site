@@ -13,7 +13,7 @@ const Navbar = () => {
         variant="dark"
       >
         <ReactBootstrap.Navbar.Brand>
-          <Link to="Ecommerce-site">
+          <Link to="/">
             <div className="brand-content">
               <img
                 className="logo"
@@ -36,7 +36,7 @@ const Navbar = () => {
             </ReactBootstrap.Nav.Link>
             {/* Get this logout link to work and pass the isAuthenticated up to here, then you're golden */}
             <ReactBootstrap.Nav.Link>
-              <Link to="Ecommerce-site">Logout</Link>
+              <Link to="/">Logout</Link>
             </ReactBootstrap.Nav.Link>
             <ReactBootstrap.Nav.Link>
               <Link to="ShoppingCart">

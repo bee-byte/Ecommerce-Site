@@ -30,7 +30,7 @@ const rugbyitems = [
   {
     id: 5,
     image: 'https://i.postimg.cc/FHCsnkhP/tackling-bag.png',
-    name: 'Rugby Tackle Bag',
+    name: 'Rugby Tackling Bag ',
     price: 5499.99,
   },
   {

@@ -15,11 +15,11 @@
   background-image: url(https://i.postimg.cc/MHPJtV8h/soccer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   justify-content: center;
   color: #333;
   background-position: center top;
   padding: 100px 300px;
+  background-attachment: scroll;
 }
 
 .wrap {
