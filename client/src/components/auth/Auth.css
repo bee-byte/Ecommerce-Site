@@ -40,13 +40,13 @@ body {
 .send-button {
   margin-top: 15px;
   height: 34px;
-  width: 400px;
+  width: 800px;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
 
 .button {
-  width: 400px;
+  width: 800px;
   height: 34px;
   transition: all 0.2s ease-in-out;
 }
@@ -72,5 +72,11 @@ body {
 @media screen and (max-width: 410px) {
   .send-button {
     width: 99%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
 }

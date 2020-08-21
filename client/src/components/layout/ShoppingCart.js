@@ -102,9 +102,6 @@ const ShoppingCart = () => {
                 className="custom-control-input"
                 id="save-info"
               />
-              <label className="custom-control-label" for="save-info">
-                Save this information for next time
-              </label>
             </div>
 
             <h4 className="mb-3">Payment</h4>
@@ -135,18 +132,6 @@ const ShoppingCart = () => {
                   Debit card
                 </label>
               </div>
-              <div className="custom-control custom-radio">
-                <input
-                  id="paypal"
-                  name="paymentMethod"
-                  type="radio"
-                  className="custom-control-input"
-                  required
-                />
-                <label className="custom-control-label" for="paypal">
-                  PayPal
-                </label>
-              </div>
             </div>
             <div className="row">
               <div className="col-md-6 mb-3">
@@ -164,7 +149,7 @@ const ShoppingCart = () => {
                 <div className="invalid-feedback">Name on card is required</div>
               </div>
               <div className="col-md-6 mb-3">
-                <label for="cc-number">Credit card number</label>
+                <label for="cc-number">Credit/Debit card number</label>
                 <input
                   type="text"
                   className="form-control"
@@ -201,9 +186,16 @@ const ShoppingCart = () => {
                 <div className="invalid-feedback">Security code required</div>
               </div>
             </div>
-            <button className="btn btn-primary btn-lg btn-block" type="submit">
-              Continue to checkout
-            </button>
+            <div className="checkoutButton">
+              <button
+                className="btn btn-primary btn-lg btn-block"
+                type="submit"
+                value={'Purchase Successful !'}
+                onClick={(e) => alert(e.target.value)}
+              >
+                Continue to checkout
+              </button>
+            </div>
           </form>
         </div>
       </div>
