@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import Popup from 'reactjs-popup';
 import PropTypes from 'prop-types';
 import { CartContext } from '../context/cart/CartContext';
 
@@ -17,9 +18,16 @@ const RugbyItems = ({ item }) => {
         <div className="item-price">R{item.price}</div>
         <div className="item-AddToCart">{item.AddToCart}</div>
         <br />
-        <button className="add-to-cart-button" onClick={addToCart}>
-          Add to cart
-        </button>
+        <Popup
+          trigger={
+            <button className="add-to-cart-button" onClick={addToCart}>
+              Add to cart
+            </button>
+          }
+          position="right-center"
+        >
+          <div>Item added</div>
+        </Popup>
       </div>
     </div>
   );
@@ -30,6 +38,3 @@ RugbyItems.propTypes = {
 };
 
 export default RugbyItems;
-
-// so basically the checkout is in my products page .. and when i add to cart the prices shows and not the total amount
-// where is that code you are talking about/

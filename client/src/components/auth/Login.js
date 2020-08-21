@@ -46,7 +46,7 @@ const Login = (props) => {
   };
 
   function home() {
-    return <Link to="/Ecommerce-site" />;
+    return <Link to="/" />;
   }
 
   return (
